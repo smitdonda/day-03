@@ -1,0 +1,61 @@
+(1)	  For the given JSON iterate over all for loops (for, for in, for of, forEach)?
+
+•	For :
+for (i= 1;i<=5;i++){
+    console.log(i)
+}
+•	For in:
+var student = {
+    "name" : "smit",
+    "age" : "34",
+    "phone num" : "7553241263",
+    "email": "smit5343@gmail.com",
+};
+for (var i in student){
+    console.log(i,student[i])
+}
+
+•	For of :
+var a = ["father","mother","brother","sister"];
+
+for (var i of a){
+    console.log(i)
+}
+
+•	For Each:
+var names = ["jerry", "tom", "pluto", "micky", "mini"];
+
+
+names.forEach(name);
+
+function name(currentValue, index) {
+   console.log(currentValue);
+
+(2)  Create your own resume data in JSON format?
+
+var  resume = {
+    
+    "Details" : {
+        "Name" : "Donda Smit",
+        "Age" : "21",
+        "Birthday date": "13 jun 2001"
+    },
+    "Conact" : {
+ "Phone no." : "7575017504",
+ "Email" :  "dondasmit324@gmail.com"
+   },   
+    "Education" : {
+"Qualification" : "BBA",
+    	"College name" : "SSCCM",
+ "University" : "MKBU",
+ "Passing year" : "2018 -2021",
+ "Parcentage" : "60.21%"
+	},
+	 "Hobbies/skills" : {
+ "Hobbies" : "playing game and reading",
+"Skills" : "managerial skill and marketing skill"
+	}
+	
+};
+
+
